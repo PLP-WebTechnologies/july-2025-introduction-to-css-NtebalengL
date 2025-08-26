@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f8fb;
+  color: #333;
+  padding: 20px;
+}
+
+
+.page-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #e0f0ff;
+  border: 2px solid #99ccee; /* Box Model demonstration */
+  border-radius: 8px;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  background-color: #004080;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #0066cc;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-card, .info-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* Box model effect */
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #004080;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0066cc;
+}
+
+.page-footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #e0f0ff;
+  border-top: 2px solid #99ccee;
+}
